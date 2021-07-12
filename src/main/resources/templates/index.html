@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"
+          integrity="sha384- ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/css/jumbotron-narrow.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>퍼플아이오 백엔드 테스트</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1 class="align-content-center">oEmbed Test</h1>
+    </div>
+    <form action="/" method="get">
+        <div class="input-group" id="searchBox">
+            <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                   id="searchUrl" aria-describedby="search-addon" />
+            <button type="button" class="btn btn-warning" id="btn-search">search</button>
+        </div>
+    </form>
+
+    <div class="table-responsive-xxl">
+        <table id="table" class="table table-striped">
+
+        </table>
+    </div>
+</div>
+</body>
+<script src="/js/index.js"></script>
+
+</html>
